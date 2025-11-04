@@ -1,0 +1,66 @@
+{
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULES": [
+      {
+        "MODULE_NAME": "1043bfc77febe75fafec0c4309faccf1",
+        "API_TYPE": "stageMode"
+      },
+      {
+        "MODULE_NAME": "5efa91a64c5f5b907066362f33bec617",
+        "API_TYPE": "stageMode"
+      }
+    ],
+    "NATIVE_COMPILER": "Default",
+    "BUILD_MODE": "debug",
+    "USE_NORMALIZED_OHMURL": true
+  },
+  "HVIGOR": {
+    "IS_INCREMENTAL": true,
+    "IS_DAEMON": true,
+    "IS_PARALLEL": true,
+    "IS_HVIGORFILE_TYPE_CHECK": false,
+    "TASK_TIME": {
+      "5efa91a64c5f5b907066362f33bec617": {
+        "ProcessOHPackageJson": 1072300,
+        "ConfigureCmake": 340900,
+        "ProcessIntegratedHsp": 727000,
+        "ProcessModulePrivacyProfile": 1293400,
+        "BuildNativeWithCmake": 463400,
+        "ProcessRouterMap": 2711600,
+        "ProcessShareConfig": 2940500,
+        "ProcessStartupConfig": 2084100,
+        "BuildNativeWithNinja": 646300,
+        "ProcessObfuscationFiles": 401200,
+        "ProcessHarArtifacts": 56366500,
+        "PackageHar": 60278400,
+        "PackageSignHar": 1387900,
+        "PackingCheckHar": 3434500,
+        "CollectDebugSymbol": 1368300,
+        "assembleHar": 430000
+      }
+    },
+    "APIS": [
+      "getHvigorConfig",
+      "getRootNodeDescriptor",
+      "getChildNode",
+      "getNodeByName",
+      "getAllNodes",
+      "getRootNode",
+      "getNodeName",
+      "getNodePath",
+      "subNodes",
+      "getExtraOption",
+      "getExtParam",
+      "getExtParams",
+      "getProperty",
+      "getProperties",
+      "getParameter",
+      "getProductName",
+      "nodesEvaluated",
+      "getCommandEntryTask"
+    ],
+    "CONFIG_PROPERTIES": {},
+    "TOTAL_TIME": 370432400,
+    "BUILD_ID": "202511041502550850"
+  }
+}

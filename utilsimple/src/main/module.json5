@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "utilsimple",
+    "type": "har",
+    "deviceTypes": [
+      "default"
+    ]
+  }
+}
